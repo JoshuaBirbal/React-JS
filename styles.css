@@ -1,0 +1,64 @@
+/*
+Mobile - Line -- 7 to 64
+TabletPortrait - Line -- 66 to
+Desktop - Line -- 00 to 00
+Tv Line -- 00 to 00
+
+@media only screen and (max-width: 600px) {*/
+	.app{
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		text-align:center
+	}
+	.tittle {
+		color: Red;
+		flex: 1;
+		font-size: 6rem;
+		margin: 2rem 2rem;
+	}
+	.logo {
+		color: blue;
+		font-size: 6rem;
+		flex: 1;
+		margin: 5rem;
+	}
+	.contact {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: center;
+		max-width: 20rem;
+		padding: 4rem 8rem;
+		margin: 2rem;
+		border: 5px solid green;
+	}
+	.contactphone{
+		color: red;
+		padding: 2rem 2rem;
+		margin: 2rem;
+		border: 2rem solid blue;
+	}
+	.contactemail {
+		flex: 1;
+		padding: 2rem 2rem;
+		margin: 2rem;
+		border: 2rem solid green;
+	}
+	.info {
+		text-align: center;
+		font-size: 2rem;
+		flex: 1;
+		max-width: 40rem;
+		padding: 5rem;
+		margin: 2rem;
+	}
+	.samples {
+		color: blue;
+		font-size: 3rem;
+		flex: 1;
+		padding: 3rem 10rem;
+		margin: 2rem;
+		border: 5px solid green;
+	}
+/*}*/
